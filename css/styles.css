@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  position: absolute;
+  background: black;
+  top: 0;
+}
+
+section{
+  position: absolute;
+  color: white;
+  width: 100%;
+  padding: 30px;
+}
+
+section nav p{
+  color: orange;
+  font-size:30px;
+  font-family: tahoma;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul{
+  list-style: none;
+  font-family: poppins;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li{
+  cursor: pointer;
+}
+
+
+main{
+  position: absolute;
+  top: 250px;
+  left: 280px;
+  font-size: 30px;
+  font-family:Segoe Print;
+  width: 600px;
+}
+
+main h1{
+  font-size: 60px;
+}
+
+main h3{
+  font-family: tahoma;
+  font-size: 45px;
+}
