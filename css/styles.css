@@ -6,55 +6,68 @@
 
 #canvas1 {
   position: absolute;
-  background: black;
+  background: rgb(78, 20, 20);
   top: 0;
 }
 
-section{
+section {
   position: absolute;
   color: white;
   width: 100%;
   padding: 30px;
 }
 
-section nav p{
+section nav p {
   color: orange;
-  font-size:30px;
+  font-size: 30px;
   font-family: tahoma;
 }
 
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-nav ul{
+nav ul {
   list-style: none;
   font-family: poppins;
   display: flex;
   gap: 15px;
 }
 
-nav ul li{
+nav ul li {
   cursor: pointer;
 }
 
-
-main{
+main {
   position: absolute;
-  top: 250px;
+  top: 220px;
   left: 280px;
   font-size: 30px;
-  font-family:Segoe Print;
+  font-family: Segoe Print;
   width: 600px;
 }
 
-main h1{
+main h1 {
   font-size: 60px;
 }
 
-main h3{
+main h3 {
   font-family: tahoma;
   font-size: 45px;
+  color: orange;
+  text-shadow: 1px 10px 10px rgba(0, 0, 0, 0.699);
+}
+
+@media screen and (max-width: 670px) {
+  main {
+    left: 0;
+    width: 100%;
+    padding: 30px;
+  }
+  main h3 {
+    font-size: 26px;
+    font-family: cursive;
+  }
 }
